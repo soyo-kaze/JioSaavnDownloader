@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "JioSaavn Downloader",
+    "version": "1.3",
+    "description": "Downloads music in Hi-def from JioSaavn",
+    "permissions": ["webRequest", "downloads"],
+    "host_permissions": [
+        "https://www.jiosaavn.com/*",
+        "https://aac.saavncdn.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
