@@ -25,9 +25,9 @@ This project is a simple tool to download songs from JioSaavn.
     ```sh
     git clone https://github.com/soyo-kaze/JioSaavnDownloader.git
     ```
-3. Open chrome://extensions/ in Chrome.
-4. Enable "Developer mode."
-5. Click "Load unpacked."
+3. Open `chrome://extensions/` in Chrome.
+4. Enable **"Developer mode."**
+5. Click **"Load unpacked."**
 6. Select your extension directory where you have cloned it.
 
 ## Usage
