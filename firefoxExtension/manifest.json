@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "JioSaavn Downloader",
+    "version": "1.3",
+    "description": "Downloads music in Hi-def from JioSaavn",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "soyo-kaze.jiosaavn-downloader@firefox"
+        }
+    },
+    "permissions": ["webRequest", "downloads"],
+    "host_permissions": [
+        "https://www.jiosaavn.com/*",
+        "https://aac.saavncdn.com/*"
+    ],
+    "icons": {
+        "16": "./assets/logo_16.png",
+        "48": "./assets/logo_48.png",
+        "128": "./assets/logo_128.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
