@@ -2,6 +2,8 @@
 
 This project is a simple tool to download songs from JioSaavn. For Chrome and Firefox browsers.
 
+![2025-01-30 15-48-13](https://github.com/user-attachments/assets/2e69689f-132d-47fd-833d-391ab8ae137e)
+
 ## Features
 
 - Download songs from JioSaavn
